@@ -55,6 +55,8 @@ For example,
 ```
 http://127.0.0.1:8000/?canisterId=rno2w-sqaaa-aaaaa-aaacq-cai
 ```
+<br/>
+At this point, you should be viewing this page: 
 ![image](https://github.com/rawalmalika/ICy2/blob/f2d78caa3fdb501a5575191a32da71c8d7e7ae38/FrontEndScreenshot.jpg)
 <br/>
 You are now accessing ICy's decentralized lending protocol!
