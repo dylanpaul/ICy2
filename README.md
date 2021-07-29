@@ -7,6 +7,9 @@ ICy is a Decentralized Lending Protocol for the Internet Computer. Similar to Aa
 There are 7 canisters used: Database, Product, Reserves, Treasury, Price Oracle, User A, User B, and User Assets. 
 ### Treasury
 The Treasury canister can mint ICP and Cycle tokens to then transfer to the User Canister. The treasury keeps track of its balance.
+
+### Reserve 
+The Reserve canister keeps track of available tokens for borrowing as well as the amount locked up for collateral. Essentially, it serves the role of a bank.
 ### Product
 Keeps track of all the aTokens outstanding. This canister interacts with the Reserve Canister by organizing User deposits and collateral to determine liquidity of specific token.
 ### User
