@@ -16,6 +16,18 @@ The User Assets canister is meant solely for the front-end code that implement i
 ### Price Oracle
 This canister fetches the current ICP to cycles exchange rate in real time (which in the NNS is updated every ten minutes).
 
+### Researchers 
+<br/>
+Lead Professor: Luyao Zhang
+<br/>
+Co-Lead Professors: Kartik Nayak, Fan Zhang, Yulin Liu
+<br/>
+Graduate Mentor: Derrick Adam
+<br/>
+Undergraduate Researchers: Dylan Paul and Malika Rawal
+<br/>
+Research Support: Tianyu Wu, William Zhao, Elliot Ha, Saad Lahrichi, Ray Zhu
+<br/>
 
 ## Deploying ICy
 Before going through the steps below, please go through [Dfinity's QuickStart] (https://sdk.dfinity.org/docs/quickstart/local-quickstart.html).
