@@ -1,13 +1,11 @@
 # Introduction to ICy
-Project ICy (Internet Computer Yield) was developed by Duke Undergraduate Researchers through [Duke CS+](https://www.cs.duke.edu/undergrad/summer_research) summer programming. 
-
-ICy is a Decentralized Lending Protocol for the Internet Computer. Similar to Aave, ICy is intended for users to be able to lend, borrow, and earn interest on crypto assets without any intermediary involvement. ICy uses 7 canisters (Database, Product, Reserves, Treasury, Price Oracle, User A, User B, User Assets), and currently, it can be deployed locally and User A and User B can interact. Moreover, an arbitrary user can create an account in the database and keep track of their token and cycle amounts. Users will receive receipts for transactions in terms of ATokens and ACycles that will earn interest. The reserve canister is used to isolate assets and calculate liquidity, and the price oracle canister feeds for the exchange rate of the assets. 
-
+Project ICy (Internet Computer Yield) was developed by Duke Undergraduate Researchers through [Duke CS+](https://www.cs.duke.edu/undergrad/summer_research) summer programming. ICy is a Decentralized Lending Protocol for the Internet Computer. Similar to Aave, ICy is intended for users to be able to lend, borrow, and earn interest on crypto assets without any intermediary involvement. 
+### Overview
+ICy uses 7 canisters (Database, Product, Reserves, Treasury, Price Oracle, User A, User B, User Assets), and currently, it can be deployed locally and User A and User B can interact. Moreover, an arbitrary user can create an account in the database and keep track of their token and cycle amounts. Users will receive receipts for transactions in terms of ATokens and ACycles that will earn interest. The reserve canister is used to isolate assets and calculate liquidity, and the price oracle canister feeds for the exchange rate of the assets. 
 ## Canisters
 There are 7 canisters used: Database, Product, Reserves, Treasury, Price Oracle, User A, User B, and User Assets. 
 ### Treasury
 The Treasury canister can mint ICP and Cycle tokens to then transfer to the User Canister. The treasury keeps track of its balance.
-
 ### Reserve 
 The Reserve canister keeps track of available tokens for borrowing as well as the amount locked up for collateral. Essentially, it serves the role of a bank.
 ### Product
@@ -18,7 +16,6 @@ Through the User Canister, a user can check their balance (similar to a digital 
 The User Assets canister is meant solely for the front-end code that implement in the Motoko created functions. Project ICy is using HTML and Javascript.
 ### Price Oracle
 This canister fetches the current ICP to cycles exchange rate in real time (which in the NNS is updated every ten minutes).
-
 ## Researchers 
 <br/>
 Lead Professor: Luyao Zhang
@@ -31,7 +28,6 @@ Undergraduate Researchers: Dylan Paul and Malika Rawal
 <br/>
 Research Support: Tianyu Wu, William Zhao, Elliot Ha, Saad Lahrichi, Ray Zhu
 <br/>
-
 ## Deploying ICy
 Before going through the steps below, please go through [Dfinity's QuickStart](https://sdk.dfinity.org/docs/quickstart/local-quickstart.html).
 
