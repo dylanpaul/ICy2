@@ -56,5 +56,5 @@ For example,
 http://127.0.0.1:8000/?canisterId=rno2w-sqaaa-aaaaa-aaacq-cai
 ```
 That should then bring you to the following view:
-![image](https://user-images.githubusercontent.com/59941308/127052935-fb28baf0-5ef0-4669-bdf8-6fe6cbaab537.png)
+![image](Screenshot (3).png)
 You are now accessing ICy's decentralized lending protocol!
