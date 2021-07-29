@@ -1,5 +1,5 @@
-# Introduction to ICy
-Project ICy (Internet Computer Yield) was developed by Duke Undergraduate Researchers through [Duke CS+](https://www.cs.duke.edu/undergrad/summer_research) summer programming. ICy is a Decentralized Lending Protocol for the Internet Computer. Similar to Aave, ICy is intended for users to be able to lend, borrow, and earn interest on crypto assets without any intermediary involvement. 
+# Introduction to ICy (Internet Computer Yield)
+Project ICy was developed by Duke Undergraduate Researchers through [Duke CS+](https://www.cs.duke.edu/undergrad/summer_research) summer programming. ICy is a Decentralized Lending Protocol for the Internet Computer. Similar to Aave, ICy is intended for users to be able to lend, borrow, and earn interest on crypto assets without any intermediary involvement. 
 ### Overview
 ICy uses 7 canisters (Database, Product, Reserves, Treasury, Price Oracle, User A, User B, User Assets), and currently, it can be deployed locally and User A and User B can interact. Moreover, an arbitrary user can create an account in the database and keep track of their token and cycle amounts. Users will receive receipts for transactions in terms of ATokens and ACycles that will earn interest. The reserve canister is used to isolate assets and calculate liquidity, and the price oracle canister feeds for the exchange rate of the assets. 
 ## Canisters
