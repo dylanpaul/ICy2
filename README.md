@@ -16,7 +16,7 @@ The User Assets canister is meant solely for the front-end code that implement i
 ### Price Oracle
 This canister fetches the current ICP to cycles exchange rate in real time (which in the NNS is updated every ten minutes).
 
-### Researchers 
+## Researchers 
 <br/>
 Lead Professor: Luyao Zhang
 <br/>
