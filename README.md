@@ -29,7 +29,7 @@ Undergraduate Researchers: Dylan Paul and Malika Rawal
 Research Support: Tianyu Wu, William Zhao, Elliot Ha, Saad Lahrichi, Ray Zhu
 <br/>
 ## Deploying ICy
-Before going through the steps below, please go through [Dfinity's QuickStart](https://sdk.dfinity.org/docs/quickstart/local-quickstart.html).
+Before going through the steps below, please go through [Dfinity's QuickStart](https://sdk.dfinity.org/docs/quickstart/local-quickstart.html)
 
 Once you have the latest version of dfx installed, you should begin your local environment by enacting the following commands:
 In one terminal, navigate to the project directory and run
@@ -56,5 +56,5 @@ For example,
 http://127.0.0.1:8000/?canisterId=rno2w-sqaaa-aaaaa-aaacq-cai
 ```
 That should then bring you to the following view:
-![image](https://github.com/rawalmalika/ICy2/blob/ee0b30c78123e0cc83c8aee1f0829e13f602c0e2/Screenshot%20(3).pngs=200)
+![image](https://github.com/rawalmalika/ICy2/blob/ee0b30c78123e0cc83c8aee1f0829e13f602c0e2/Screenshot%20(3).pngs)
 You are now accessing ICy's decentralized lending protocol!
