@@ -27,7 +27,7 @@ Graduate Mentor: Derrick Adam
 Undergraduate Researchers: Dylan Paul and Malika Rawal
 <br/>
 Research Support: Tianyu Wu, William Zhao, Elliot Ha, Saad Lahrichi, Ray Zhu
-<br/>
+
 ## Deploying ICy
 Before going through the steps below, please go through [Dfinity's QuickStart](https://sdk.dfinity.org/docs/quickstart/local-quickstart.html)
 
